@@ -6,7 +6,7 @@
 </script>
 
 {#if show}
-  <p in:fly="{{ y: -200, duration: 1000}}" out:fade>{text}</p>
+  <p in:fly={{ y: -200, duration: 1000 }} out:fade>{text}</p>
 {/if}
 
 <style>
